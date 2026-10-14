@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: eco-demo
+spec:
+ replicas: 1
+ selector:
+  matchLabels:
+   app: eco-demo
+ template:
+  metadata:
+   labels:
+    app: eco-demo
+   annotations:
+    cw-scheduler/opt-in: "true"
+  spec:
+   schedulerName: cwScheduler
+   containers:
+     - name: demo
+       image: nginx

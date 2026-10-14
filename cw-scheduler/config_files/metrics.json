@@ -1,0 +1,28 @@
+{
+ "minikube": {
+  "carbon-intensity": 40,
+  "wue_direct": 0.5,
+  "pue": 1.3,
+  "ewif": 1.8,
+  "scarcity_site":0.8,
+  "scarcity_grid": 0.4
+ },
+ "minikube-m02": {
+  "carbon-intensity": 120,
+  "wue_direct": 0.2,
+  "pue": 0.1,
+  "ewif":0.1,
+  "scarcity_site":0.2,
+  "scarcity_grid":0.1
+  },
+  "minikube-m03": {
+  "carbon-intensity": 180,
+  "wue_direct": 0.2,
+  "pue": 0.2,
+  "ewif":1.5,
+  "scarcity_site":0.1,
+  "scarcity_grid":0.1
+  }
+ }
+ 
+ 

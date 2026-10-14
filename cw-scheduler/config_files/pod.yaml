@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: eco-test-pod
+  labels:
+    app: web-server
+spec:
+ schedulerName: cwScheduler
+ containers:
+ - name: nginx-container
+   image: nginx:alpine
