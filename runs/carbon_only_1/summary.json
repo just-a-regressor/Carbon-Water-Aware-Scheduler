@@ -1,0 +1,11 @@
+{
+  "duration_s": 256.7,
+  "samples": 112,
+  "carbon_units": 240.048,
+  "water_units": 18.444,
+  "pending_pod_seconds": 78.1,
+  "placed_pod_seconds": 10109.7,
+  "evictions": 0,
+  "peak_pods_on_one_node": 8,
+  "avg_nodes_used": 4.96
+}

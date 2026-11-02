@@ -1,0 +1,202 @@
+{
+  "clean-wet-0": {
+    "carbon-intensity": 50,
+    "wue_direct": 0.2,
+    "scarcity_site": 0.5,
+    "pue": 1.15,
+    "ewif": 1.0,
+    "scarcity_grid": 0.5
+  },
+  "clean-wet-1": {
+    "carbon-intensity": 50,
+    "wue_direct": 0.2,
+    "scarcity_site": 0.5,
+    "pue": 1.15,
+    "ewif": 1.0,
+    "scarcity_grid": 0.5
+  },
+  "clean-wet-2": {
+    "carbon-intensity": 50,
+    "wue_direct": 0.2,
+    "scarcity_site": 0.5,
+    "pue": 1.15,
+    "ewif": 1.0,
+    "scarcity_grid": 0.5
+  },
+  "clean-wet-3": {
+    "carbon-intensity": 50,
+    "wue_direct": 0.2,
+    "scarcity_site": 0.5,
+    "pue": 1.15,
+    "ewif": 1.0,
+    "scarcity_grid": 0.5
+  },
+  "clean-wet-4": {
+    "carbon-intensity": 50,
+    "wue_direct": 0.2,
+    "scarcity_site": 0.5,
+    "pue": 1.15,
+    "ewif": 1.0,
+    "scarcity_grid": 0.5
+  },
+  "clean-dry-0": {
+    "carbon-intensity": 20,
+    "wue_direct": 0.5,
+    "scarcity_site": 4.0,
+    "pue": 1.2,
+    "ewif": 1.5,
+    "scarcity_grid": 4.0
+  },
+  "clean-dry-1": {
+    "carbon-intensity": 20,
+    "wue_direct": 0.5,
+    "scarcity_site": 4.0,
+    "pue": 1.2,
+    "ewif": 1.5,
+    "scarcity_grid": 4.0
+  },
+  "clean-dry-2": {
+    "carbon-intensity": 20,
+    "wue_direct": 0.5,
+    "scarcity_site": 4.0,
+    "pue": 1.2,
+    "ewif": 1.5,
+    "scarcity_grid": 4.0
+  },
+  "clean-dry-3": {
+    "carbon-intensity": 20,
+    "wue_direct": 0.5,
+    "scarcity_site": 4.0,
+    "pue": 1.2,
+    "ewif": 1.5,
+    "scarcity_grid": 4.0
+  },
+  "clean-dry-4": {
+    "carbon-intensity": 20,
+    "wue_direct": 0.5,
+    "scarcity_site": 4.0,
+    "pue": 1.2,
+    "ewif": 1.5,
+    "scarcity_grid": 4.0
+  },
+  "coal-wet-0": {
+    "carbon-intensity": 750,
+    "wue_direct": 0.3,
+    "scarcity_site": 0.5,
+    "pue": 1.3,
+    "ewif": 2.0,
+    "scarcity_grid": 0.5
+  },
+  "coal-wet-1": {
+    "carbon-intensity": 750,
+    "wue_direct": 0.3,
+    "scarcity_site": 0.5,
+    "pue": 1.3,
+    "ewif": 2.0,
+    "scarcity_grid": 0.5
+  },
+  "coal-wet-2": {
+    "carbon-intensity": 750,
+    "wue_direct": 0.3,
+    "scarcity_site": 0.5,
+    "pue": 1.3,
+    "ewif": 2.0,
+    "scarcity_grid": 0.5
+  },
+  "coal-wet-3": {
+    "carbon-intensity": 750,
+    "wue_direct": 0.3,
+    "scarcity_site": 0.5,
+    "pue": 1.3,
+    "ewif": 2.0,
+    "scarcity_grid": 0.5
+  },
+  "coal-wet-4": {
+    "carbon-intensity": 750,
+    "wue_direct": 0.3,
+    "scarcity_site": 0.5,
+    "pue": 1.3,
+    "ewif": 2.0,
+    "scarcity_grid": 0.5
+  },
+  "coal-dry-0": {
+    "carbon-intensity": 800,
+    "wue_direct": 0.8,
+    "scarcity_site": 4.5,
+    "pue": 1.4,
+    "ewif": 2.5,
+    "scarcity_grid": 4.5
+  },
+  "coal-dry-1": {
+    "carbon-intensity": 800,
+    "wue_direct": 0.8,
+    "scarcity_site": 4.5,
+    "pue": 1.4,
+    "ewif": 2.5,
+    "scarcity_grid": 4.5
+  },
+  "coal-dry-2": {
+    "carbon-intensity": 800,
+    "wue_direct": 0.8,
+    "scarcity_site": 4.5,
+    "pue": 1.4,
+    "ewif": 2.5,
+    "scarcity_grid": 4.5
+  },
+  "coal-dry-3": {
+    "carbon-intensity": 800,
+    "wue_direct": 0.8,
+    "scarcity_site": 4.5,
+    "pue": 1.4,
+    "ewif": 2.5,
+    "scarcity_grid": 4.5
+  },
+  "coal-dry-4": {
+    "carbon-intensity": 800,
+    "wue_direct": 0.8,
+    "scarcity_site": 4.5,
+    "pue": 1.4,
+    "ewif": 2.5,
+    "scarcity_grid": 4.5
+  },
+  "real-california-0": {
+    "carbon-intensity": 400,
+    "wue_direct": 0.4,
+    "scarcity_site": 4.03,
+    "pue": 1.25,
+    "ewif": 1.8,
+    "scarcity_grid": 4.03
+  },
+  "real-california-1": {
+    "carbon-intensity": 400,
+    "wue_direct": 0.4,
+    "scarcity_site": 4.03,
+    "pue": 1.25,
+    "ewif": 1.8,
+    "scarcity_grid": 4.03
+  },
+  "real-california-2": {
+    "carbon-intensity": 400,
+    "wue_direct": 0.4,
+    "scarcity_site": 4.03,
+    "pue": 1.25,
+    "ewif": 1.8,
+    "scarcity_grid": 4.03
+  },
+  "real-california-3": {
+    "carbon-intensity": 400,
+    "wue_direct": 0.4,
+    "scarcity_site": 4.03,
+    "pue": 1.25,
+    "ewif": 1.8,
+    "scarcity_grid": 4.03
+  },
+  "real-california-4": {
+    "carbon-intensity": 400,
+    "wue_direct": 0.4,
+    "scarcity_site": 4.03,
+    "pue": 1.25,
+    "ewif": 1.8,
+    "scarcity_grid": 4.03
+  }
+}

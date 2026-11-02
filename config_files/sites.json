@@ -1,0 +1,69 @@
+{
+  "_readme": [
+    "Maps each SIMULATED region (the names used by gen_cluster.py) to real-world data sources.",
+    "watttime_region : WattTime region code (null = no live carbon, use carbon_fallback). Find codes with: python3 watttime_client.py --my-access",
+    "carbon_fallback: g CO2/kWh used when there is no live value. The numbers below are SYNTHETIC placeholders.",
+    "aqueduct       : {country, province} to look up with build_water_table.py (null = keep the scarcity values written here).",
+    "scarcity_site / scarcity_grid: Aqueduct baseline water stress SCORE, 0 (low) to 5 (extremely high). Placeholders until the lookup runs."
+  ],
+  "regions": {
+    "clean-wet": {
+      "label": "synthetic: clean grid, water-rich",
+      "watttime_region": null,
+      "carbon_fallback": 50,
+      "aqueduct": null,
+      "scarcity_site": 0.5,
+      "scarcity_grid": 0.5,
+      "pue": 1.15,
+      "wue_direct": 0.2,
+      "ewif": 1.0
+    },
+    "clean-dry": {
+      "label": "synthetic: very clean grid, water-stressed",
+      "watttime_region": null,
+      "carbon_fallback": 20,
+      "aqueduct": null,
+      "scarcity_site": 4.0,
+      "scarcity_grid": 4.0,
+      "pue": 1.2,
+      "wue_direct": 0.5,
+      "ewif": 1.5
+    },
+    "coal-wet": {
+      "label": "synthetic: coal-heavy grid, water-rich",
+      "watttime_region": null,
+      "carbon_fallback": 750,
+      "aqueduct": null,
+      "scarcity_site": 0.5,
+      "scarcity_grid": 0.5,
+      "pue": 1.3,
+      "wue_direct": 0.3,
+      "ewif": 2.0
+    },
+    "coal-dry": {
+      "label": "synthetic: coal-heavy grid, water-stressed",
+      "watttime_region": null,
+      "carbon_fallback": 800,
+      "aqueduct": null,
+      "scarcity_site": 4.5,
+      "scarcity_grid": 4.5,
+      "pue": 1.4,
+      "wue_direct": 0.8,
+      "ewif": 2.5
+    },
+    "real-california": {
+      "label": "REAL: Northern California (WattTime CAISO_NORTH + Aqueduct California)",
+      "watttime_region": "CAISO_NORTH",
+      "carbon_fallback": 400,
+      "aqueduct": {
+        "country": "United States",
+        "province": "California"
+      },
+      "scarcity_site": 4.03,
+      "scarcity_grid": 4.03,
+      "pue": 1.25,
+      "wue_direct": 0.4,
+      "ewif": 1.8
+    }
+  }
+}

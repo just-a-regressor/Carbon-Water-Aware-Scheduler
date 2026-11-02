@@ -1,0 +1,9 @@
+{
+  "name": "evening-dirty-then-heatwave-then-recovery",
+  "duration": 240,
+  "events": [
+    {"at": 60,  "region": "clean-wet", "set": {"carbon-intensity": 900}},
+    {"at": 120, "region": "clean-dry", "set": {"carbon-intensity": 300, "wue_direct": 1.5, "scarcity_site": 5.0, "scarcity_grid": 5.0}},
+    {"at": 180, "region": "clean-wet", "restore": true}
+  ]
+}
