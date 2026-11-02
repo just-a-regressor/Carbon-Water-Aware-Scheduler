@@ -1,2 +1,2 @@
 # Carbon-Water-Aware-Scheduler
-creating a carbon and water aware scheduler
+Creating a carbon and water aware scheduler along with a descheduler-controller and measuring the trade off of using this vs using a carbon aware and the normal kube-scheduler
